@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--移动端优先-->
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0;name="viewport"/>
+		
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<!--CSS style-->
+		<link rel="stylesheet" type="text/css" href="CSS/basical.css"/>
+		<!--CSS animate style-->
+		<link rel="stylesheet" type="text/css" href="CSS/animate.min.css"/>
+	</head>
+	<body>
+		<p class="statement">本视频仅用于练习，无商业用途</p>
+		<!--主div-->
+		<div id="container">
+			<!--第一屏-->
+			<div class="box one">
+				<img src="images/onetitle.png" class="title animated bounceInDown ani"/>
+				<img src="images/onebot1.png" class="onebot1 animated fadeInUp ani"/>
+				<img src="images/onebot2.png" class="onebot2 animated fadeInUp ani"/>
+				<img src="images/qiaokeli.png" class="qiaokeli animated fadeInUp ani" />
+				<img src="images/onepeople.png" class="onepeople animated fadeIn ani" />
+				<img src="images/onexin.png" class="onexin animated zoomIn ani"/>
+				<img src="images/sweet.png" class="sweet animated fadeInLeft ani"/>
+				<img src="images/xin.png" class="xin animated zoomInLeft ani"/>
+			</div>
+			
+			<!--第二屏-->
+			<div class="box two">
+				<!--无须加animated，因为第二屏不需要在页面一刷新就运动-->
+				<img src="images/twotop.png" class="twotop ani fadeInDown" />
+				<img src="images/twotitle.png" class="twotitle ani fadeInLeft" />
+				<img src="images/bangbangtang.png" class="cindy ani fadeInRight"/>
+				<img src="images/twopeople.png" class="twopeople ani fadeIn"/>
+				<img src="images/bingqilin.png" class="ice ani fadeInUp"/>
+				<img src="images/twoqkl.png" class="twoqkl"/>
+				<img src="images/twoqkl.png" class="twoqkl" style="position: absolute;left:85%;top:70%;"/>
+			</div>
+
+		</div>
+		
+		<!--在尾部引入JS文件-->
+		<script src="JS/zepto.min.js"></script>
+		<!--如果要触发触屏事件，需要有touch模块-->
+		<script src="JS/touch.js"></script>
+		<script src="JS/basical.js"></script>
+	</body>
+</html>

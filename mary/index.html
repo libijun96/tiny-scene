@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="CSS/swiper.min.css">
+
+    <!-- Demo styles -->
+    <link rel="stylesheet" href="CSS/hd.css">
+    
+    <!--动效CSS-->
+    <link rel="stylesheet" href="CSS/animate.min.css">
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+        	<!--第一屏-->
+            <div class="swiper-slide one">
+            	<!--在需要运动的元素上加上类名ani,加延迟是因为动效都是依次进行的，得等前一个动效完成以后在进行下一个-->
+            	<div class="top ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s">
+            		<img src="images/one.jpg"/>
+            	</div>
+            	<div class="bottom">
+            		<img src="images/jiezhi.png" class="ring ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="2.8s"/>
+            		<!--延迟1.8s（1.5+0.3）是计算出来的-->
+            		<img src="images/womenjiehunla.png" class="mery ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="1.8s"/>
+            		<img src="images/2016117.png" class="time ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="3.8s"/>
+            	</div>
+            </div>
+            
+            <!--第二屏-->
+            <div class="swiper-slide two">
+            	<div class="one ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1s" swiper-animate-delay="0s">
+            		<img src="images/two1.jpg"/>
+            	</div>
+            	<div class="two ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1.5s" swiper-animate-delay="1s">
+            		<!--另写一个div-->
+            		<div class="top">
+            			<img src="images/two2.jpg"/>
+            		</div>
+            		<img src="images/twoline.png" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="2s"/>
+            		<img src="images/t1.png" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2.5s"/>
+            		<img src="images/twoline.png" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="3.5s"/>
+            		<img src="images/t2.png" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="4s"/>
+            		<img src="images/twoline.png" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="5s"/>
+            		<img src="images/t3.png" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="5.5s"/>
+            		<img src="images/twoline.png" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="6.5s"/>
+            		<img src="images/t4.png" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="7s"/>
+            		<img src="images/twoline.png" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="0.5s" swiper-animate-delay="8s"/>
+            		<img src="images/t5.png" class="ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="8.5s"/>
+            	</div>
+            	<img src="images/fengche.gif" class="windmill ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="9.5s"/>
+            </div>
+            
+            <!--第三屏-->
+            <div class="swiper-slide three">
+            	<div class="big ani" swiper-animate-effect="zoomIn" swiper-animate-duration="1.5s" swiper-animate-delay="0s">
+            		<img src="images/three1.jpg"/>
+            	</div>
+            	<img src="images/dog.png" class="dog ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="1s" swiper-animate-delay="1.5s"/>
+            	<img src="images/hua.png" class="flower1 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.7s"/>
+            	<img src="images/hua2.png" class="flower2 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.7s"/>
+            	<img src="images/aini.png" class="aini ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.9s"/>
+            </div>
+            
+            <!--第四屏-->
+            <div class="swiper-slide four">
+            	<div class="all">
+            		<div class="a41 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="0s"><img src="images/41.jpg"/></div>
+            		<div class="a42 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="0s"><img src="images/42.jpg"/></div>
+            		<div class="a43 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="0s"><img src="images/43.jpg"/></div>
+            		<div class="a44 ani" swiper-animate-effect="zoomIn" swiper-animate-duration="2s" swiper-animate-delay="0s"><img src="images/44.jpg"/></div>
+            	</div>
+            	<img src="images/hua2.png" class="flower2 ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="2s"/>
+            	<img src="images/chengnuo.PNG" class="chengnuo ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="3s"/>
+            	<img src="images/xieshou.PNG" class="xieshou ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="3s"/>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    
+    <!--音乐区域-->
+    <div id="music">
+    	<img src="images/music.gif" class="music1"/>
+    	<img src="images/music_off.png" class="music2"/>
+    	<!--preload是当页面内容加载后再载入音频，若不如此，可能会拖慢内容的加载，这样可提高用户体验-->
+    	<audio src="images/bgmusic.mp3" preload="auto" loop="loop" autoplay="autoplay"></audio>
+    </div>
+ 
+    <!--声明-->
+    <p class="statement">本效果仅用于练习，无商业用途</p>
+    <!-- Swiper JS -->
+    <script src="JS/swiper.min.js"></script>
+
+    <!--动效JS，要放在Swiper JS之后，不然里面的属性解析不出来-->
+    <script src="JS/swiper.animate1.0.2.min.js"></script>
+    
+    <!-- Initialize Swiper -->
+    <script src="JS/hd.js"></script>
+</body>
+</html>
